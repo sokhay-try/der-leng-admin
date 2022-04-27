@@ -10,7 +10,7 @@ import { storage } from "../../firebase";
 
 const Index = () => {
   const DEFAULT_PAGE = 1;
-  const DEFAULT_PAGE_SIZE = 2;
+  const DEFAULT_PAGE_SIZE = 5;
   const {
     getAllProvinces,
     createProvince,
